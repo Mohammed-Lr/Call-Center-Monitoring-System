@@ -82,7 +82,3 @@ Alerts are triggered when violations persist for a configurable duration:
 ## License
 
 MIT License
-
-## Contributors
-
-Your Name
