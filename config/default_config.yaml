@@ -1,0 +1,24 @@
+models:
+  headset_model: "models/headsetmodel.pt"
+  phone_model: "models/pdfinal.pt"
+  face_encodings: "models/face_encodings.pickle"
+
+video:
+  target_width: 640
+  target_height: 480
+  codec: "mp4v"
+
+detection:
+  confidence: 0.5
+  tracking_confidence: 0.5
+  max_faces: 1
+
+output:
+  processed_videos: "output/processed_videos"
+  alerts: "output/alerts"
+  logs: "output/logs"
+
+data:
+  sample_videos: "data/sample_videos"
+  pickle_dataset: "data/pickle_dataset"
+  test_images: "data/test_images"

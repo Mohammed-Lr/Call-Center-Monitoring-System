@@ -1,0 +1,14 @@
+drowsiness:
+  lip_distance_threshold: 0.05
+  ear_threshold: 0.2
+  consecutive_frames: 5
+
+alerts:
+  phone_frames: 30
+  headset_frames: 30
+  drowsy_frames: 5
+
+landmarks:
+  left_eye: [362, 385, 387, 263, 373, 380]
+  right_eye: [33, 160, 158, 133, 153, 144]
+  lips: [13, 14]
